@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<artifactId>hcpautoscaler</artifactId>	
-	<name>HCP Auto-Scaler</name>
+	<artifactId>CFAppAutoscaler</artifactId>	
+	<name>Cloud Foundry App Auto-Scaler</name>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -42,6 +42,6 @@
 			</resource>
 		</resources>
 	</build>
-	<groupId>com.sap.hcp.autoscaler</groupId>
+	<groupId>com.cw.fdd.autoscaler</groupId>
 	<version>1.0.0</version>
 </project>
