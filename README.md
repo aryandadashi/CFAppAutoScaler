@@ -1,7 +1,7 @@
 # CFAutoScaler
-An auto-scaler for Cloud Foundry PaaS based on CPU metric.
+An auto-scaler for Cloud Foundry PaaS based on CPU metric. As a part of Cloudwave project, this auto-scaler was developed to demonstrate the Industrial Exploitation of the Cloudwave stack that consists of **Execution Analytics, Coordinated Adaptation and Feedback Driven Development**. This auto-scaler consists of **monitoring and scaling services**. The monitoring service implements the concepts of execution acalytics and the the scaling service exhibits the concepts of Coordinated Adaptation and Feedback Driven Development.
 
-This auto-scaler consists of **scaling** and **monitoring services**. The three packages of this project are: 
+The three packages of this project are: 
 
 1. auto-scaling: performs scaling decisions, cloud foundry API calls 
 2. data: persists the monitoring data into PostgreSQL using JDBC 
